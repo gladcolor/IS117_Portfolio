@@ -46,18 +46,18 @@ button{
     background-color: #F3A1A1;
     color: black;
 }
-.col{
+#hero .col{
     justify-content: center;
     flex-direction: column;
     display: flex;
 }
 
-.img-col{
+#hero .img-col{
     justify-content: center;
     margin-top: 100px;
 }
 
-img {
+#hero img {
     max-width: 115%;
     width: 115%;
     border-radius: 50%;
