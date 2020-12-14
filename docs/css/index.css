@@ -68,7 +68,7 @@ nav ul li a{
     height: 100%;
 }
 
-.hero-box .img-col .img-box::before{
+.hero-box .img-col .img-box .hero-img::before{
     content: "";
     width: 350px;
     height: 350px;
@@ -87,20 +87,9 @@ nav ul li a{
     border-radius: 50%;
 }
 
-#footer{
+footer{
     text-align: center;
+    padding: 3px;
     background-color: #F3A1A1;
     color: black;
-}
-
-#footer .li-ic{
-    align-content: center;
-}
-
-#footer .gh-ic{
-    align-content: center;
-}
-
-#footer p{
-    text-align: left;
 }
