@@ -23,41 +23,46 @@ nav ul li a{
     margin: auto 10px;
 }
 
-section{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-section h1{
-    font-family: 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: black;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-section p{
-    font-size: 16px;
-    font-weight: 300;
+.hero-box{
+    display: flex;
+    padding-top:150px;
     color: black;
 }
 
-button{
-    max-width: 50px;
-    border-radius: 50px;
-    background-color: #F3A1A1;
-    color: black;
-}
-#hero .col{
+.hero-box .col{
     width: 50%;
     padding: 20px;
 }
 
-#hero .img-col{
+.hero-box .col h1{
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.hero-box .col p{
+    margin-bottom: 30px;
+}
+
+.hero-box .col a{
+    background: #F3A1A1;
+    padding: 15px 30px;
+    color: black;
+    display: inline-block;
+}
+
+.hero-box .img-col{
     width: 50%;
 }
 
-#hero img {
-    border-radius: 50%;
+.hero-box .img-col .img-box{
+    width: 350px;
+    height: 350px;
+    border: 5px solid #F3A1A1;
+    margin: auto;
+    border-bottom-right-radius: 20px;
+}
+
+.hero-box .img-col .img-box .hero-img{
+    position: center;
+    height: 100%;
 }
