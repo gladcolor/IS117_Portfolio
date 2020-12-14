@@ -1,8 +1,12 @@
+html{
+    height: 100%;
+}
+
 body{
     display: flex;
     overflow-x: hidden;
     font-family: 'Josefin Sans', sans-serif;
-    min-height: 100vh;
+    min-height: 100%;
     flex-direction: column;
 }
 
@@ -78,12 +82,13 @@ nav ul li a{
 }
 
 .top-footer{
-    margin:0;
-    padding: 0;
+    margin:auto;
+    padding: 3em;
     background-color: #F3A1A1;
 }
 
 .social-links{
+    align-items: center;
     display: flex;
 }
 .social-links ul{
@@ -91,7 +96,7 @@ nav ul li a{
     display: flex;
     width: 300px;
     height: 30px;
-    margin: auto;
+    margin-top: auto;
 }
 
 .social-items{
