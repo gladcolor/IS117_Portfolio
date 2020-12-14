@@ -60,7 +60,7 @@ nav ul li a{
     height: 350px;
     border: 5px solid #F3A1A1;
     margin: auto;
-    border-bottom-right-radius: 20px;
+    border-radius: 50%;
 }
 
 .hero-box .img-col .img-box .hero-img{
@@ -68,9 +68,20 @@ nav ul li a{
     height: 100%;
 }
 
+.hero-box .img-col .img-box::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 5px solid;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border-radius: 50%;
+}
+
 .hero-box .img-col .img-box .hero-img img{
     width: 350px;
     height: 350px;
     margin: auto;
-    border-bottom-right-radius: 20px;
+    border-radius: 50%;
 }
