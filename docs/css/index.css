@@ -37,6 +37,7 @@ nav ul li a{
 .hero-box .col h1{
     text-transform: uppercase;
     line-height: 2;
+    font-weight: 900;
 }
 
 .hero-box .col p{
@@ -65,4 +66,11 @@ nav ul li a{
 .hero-box .img-col .img-box .hero-img{
     position: center;
     height: 100%;
+}
+
+.hero-box .img-col .img-box .hero-img img{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    border-bottom-right-radius: 20px;
 }
