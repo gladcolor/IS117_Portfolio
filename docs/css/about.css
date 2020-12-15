@@ -39,6 +39,9 @@ nav ul li a {
     display: inline-block;
 }
 
+.col-4 img{
+    position: center;
+}
 footer{
     background-color: #F3A1A1;
     text-align: center;
